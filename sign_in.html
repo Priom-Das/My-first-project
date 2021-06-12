@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>World's Exclusive-Sign in</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" href="img/w.png">
+    <link rel="shortcut icon" href="img/w.ico">
+  </head>
+  <body class="div"> 
+    <header class="header">
+      <div class="div1">
+        <img src="img/logo.png" alt="Logo">
+      </div>
+      <div class="div2">
+        <select name="language" id="language">
+          <option value="English">English</option>
+          <option value="Chinese">Chinese</option>
+          <option value="Dutch">Dutch</option>
+          <option value="German">Garman</option>
+          <option value="Bengali">Bengali</option>
+        </select>
+        <a href="https://www.google.com"><!--Error: The element input must not appear as a descendant of the a element.--><input type="text" id="search" name="search" placeholder="Search here"></a>
+
+        <a href="sign_in.html"><!--Error: The element input must not appear as a descendant of the a element.--><input type="button" id="button" value="Sign in"/></a>
+      </div>
+    </header>
+    <figure>
+      <div class="div">
+        <div class="logo">
+          <img  src="img/logo.png" alt="Logo">
+        </div>
+        <div class="right">
+          <form>
+            <label for="email">Email :</label> 
+            <input type="email"  id="email" placeholder="enter username or email" required><br>
+            <label for="password">Password : </label> 
+            <input type="password" id="password" placeholder="must be 8 charecters" ><br>
+            <input type="checkbox" name="show" id="checkbox"><span>Show password </span><br>
+            <input type="submit" value="Sign in"  id="submit">
+          </form>
+          <span class="frgtpass"><!--Error: Element h5 not allowed as child of element a in this context. (Suppressing further errors from this subtree.)--><a href="#"><h5>Forgotten password?</h5></a></span>
+          <span class="newaccount"><!--Error: Element h5 not allowed as child of element a in this context. (Suppressing further errors from this subtree.)--><a href="sign_up.html"><h3>Creat new account</h3></a></span>
+        </div>
+      </div>
+    </figure>
+  </body>
+</html>

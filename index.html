@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-US"> 
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="slider/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="slider/themes/default/default.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="slider/themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="slider/themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="slider/themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" href="img/h.png">
+    <link rel="shortcut-icon" href="img/h.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>
+      Home page
+    </title> 
+  </head>
+  <body>
+    <!--header area start-->
+    <header class="header">
+      <div class="div1">
+        <img src="img/logo.png" alt="Logo">
+      </div>
+      <div class="div2">
+        <select name="language" id="language">
+          <option value="English">English</option>
+          <option value="Chinese">Chinese</option>
+          <option value="Dutch">Dutch</option>
+          <option value="German">Garman</option>
+          <option value="Bengali">Bengali</option>
+        </select>
+        <a href="https://www.google.com"><!--Error: The element input must not appear as a descendant of the a element.--><input type="text" id="search" name="search" placeholder="Search here"></a>
+
+        <a href="sign_in.html"><!--Error: The element input must not appear as a descendant of the a element.--><input type="button" id="button" value="Sign in"/></a>
+      </div>
+    </header>
+    <!--nav area start-->
+    <nav>
+      <ul id="nav">
+        <li><a href="index.html"><i class="fas fa-home" id="home"></i>Home</a></li>
+        <li><a href="#"><i class="fas fa-people-carry"></i>Services <i class="fas fa-angle-down"></i></a>
+          <ul>
+            <li><a href="#">Web desgin</a></li>
+            <li><a href="#">Graphics design</a></li>
+            <li><a href="#">SEO</a></li>
+          </ul>
+        </li>
+        <li><a href="portfolio.html"><i class="fas fa-folder-open"></i>Portfolio</a></li>
+        <li><a href="blog.html"><i class="fas fa-blog"></i>Blog</a></li>
+        <li><a href="contact.html"><i class="fas fa-assistive-listening-systems"></i>Contact</a></li>
+      </ul>
+    </nav>
+    <!--figure area start-->
+    <figure>
+      <div id="wrapper">
+        <div class="slider-wrapper theme-dark">
+          <div id="slider" class="nivoSlider">
+            <img src="slider/images/first.jpg" data-thumb="slider/images/first .jpg" alt="A picture of first look" />
+            <img src="slider/images/second.jpg" data-thumb="slider/images/second.jpg" alt="A picture"/>
+            <img src="slider/images/third.jpg" data-thumb="slider/images/third .jpg" alt="Another picture"/>
+            <img src="slider/images/fourth.jpg" data-thumb="slider/images/fourth.jpg" alt="The  last picture" />
+          </div>
+        </div>
+      </div>
+      <script  src="slider/jquery-1.9.0.min.js"></script>
+      <script  src="slider/jquery.nivo.slider.js"></script>
+      <script>
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+      </script>
+    </figure>
+     <!--article area start-->
+     <article>
+      <div class="article">
+        <h2>Who we are?</h2>
+        <p>About the Web Design and Web Development Company</p>
+        <p>World's Exclusive is one of the Best IT based Web Design and Web Development Company in Bangladesh. From 2020 World's Exclusive started their journey and successfully completed 150+ eCommerce Development & Web Development project worldwide. World's Exclusive have professional and expert developers who are working and experienced in corporate level for several years. We are working on all eCommerce Development, eCommerce Management , Web Design and Web Development Company that meets your demands with 100% Satisfaction guarantee.</p>
+        <div>
+          <input type="button" class="learn" value="LEARN MORE">
+        </div>
+      </div>
+    </article>
+    <!--section area start-->
+    <section>
+      <div id="section">
+        <h2>Our Experience</h2>
+        <label for="html">HTML</label>
+        <progress id="html" value="95" max="100">95%</progress><br><br>
+        <label for="javascript">JAVASCRIPT</label>
+        <progress id="javascript" value="80" max="100">80%</progress><br><br>
+        <label for="database">DATABASE</label>
+        <progress id="database" value="85" max="100">85%</progress><br><br>
+        <div id="right">
+          <label for="css">CSS</label>
+          <progress id="css" value="80" max="100">80%</progress><br><br>
+          <label for="php">PHP</label>
+          <progress id="php" value="80" max="100">80%</progress><br><br>
+          <label for="sql">SQL</label>
+          <progress id="sql" value="85" max="100">85%</progress><br><br>
+        </div>
+      </div>
+    </section>
+    <!--article 2 area start-->
+    <article>
+      <div class="article">
+        <h2>Why Choose Us?</h2>
+        <p>We are an experinced Web Design and Web Development Company. We always provide our clients the best and fastest service without making any single fault in our work. Web Technology BD believe in quality work. Our main goal is to satisfy the Client. We are very careful to provide the best lifetime help & support service as needed. If you have any confusion about our working quality, please check what our clients say and our projects to understand better about Web Technology.<br> 
+        We are expert in Web Design and Web Development, Online Store Setup & Customization Like Big Commerce, WordPress, Woo Commerce, Magento, Volusion, CS-Cart, Joomla, Zen Cart & Ebay etc. On the other hand, HTML/CSS/PhP HTML5/CSS3. Psd to HTML. Landing page, email template, word to HTML, in-design to HTML, PDF to HTML etc.</p>
+        <div>
+          <input type="button" class="learn" value="READ MORE">
+        </div>
+      </div>
+    </article>
+    <!--footer area start-->
+    <footer>
+      <div id="footer">
+        <div>
+          Developed by &copy;
+        <strong>Priom Das</strong>
+        </div>
+        <div class="icon">
+          <a href="https://www.facebook.com/priom.das.923" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.facebook.com/messenger_media/?thread_id=100027249020738&attachment_id=146274507496346&message_id=mid.%24cAAAADbh15-eAAepqTl50KUYiQDYJ" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://www.instagram.com/priom_d/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://twitter.com/PriomDas3" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

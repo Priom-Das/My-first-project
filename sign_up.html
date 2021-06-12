@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World's Exclusive-sign up</title>
+  <link rel="icon" href="img/w.png">  
+  <link rel="shortcut icon" href="img/w.ico">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="div1">
+      <img src="img/logo.png" alt="Logo">
+    </div>
+    <div class="div2">
+      <select name="language" id="language">
+        <option value="English">English</option>
+        <option value="Chinese">Chinese</option>
+        <option value="Dutch">Dutch</option>
+        <option value="German">Garman</option>
+        <option value="Bengali">Bengali</option>
+      </select>
+      <a href="https://www.google.com"><!--Error: The element input must not appear as a descendant of the a element.--><input type="text" id="search" name="search" placeholder="Search here"></a>
+
+      <a href="sign_in.html"><!--Error: The element input must not appear as a descendant of the a element.--><input type="button" id="button" value="Sign in"/></a>
+    </div>
+  </header>
+  <form id="form">
+    <fieldset class="fieldset">
+      <div>
+        <label for="fullname" class="label">Fullname : </label>
+        <input type="text" name="fullname" id = "fullname" placeholder="Enter your fullname" required> <br><br>
+        <label class="label">Contact : </label>
+        <input type="number" name="contact" class = "contact" placeholder="Enter your phone number" required> <br><br>
+      </div>
+      <div>
+        <label for="Email" class="label">Email : </label>
+        <input type="email" name="email" placeholder="Enter your email" id="Email" required><br><br>
+      </div>
+      <div>
+        <label for="Password" class="label">Password : </label>
+        <input type="password" name="password" id="Password" placeholder="type your password"><br><br>
+      </div>
+      <div>
+        <label for="dob" class="label">Date of Birth : </label>
+        <input type="date" max="2021-12-31" id="dob"><br><br>
+      </div>
+      <div>
+        <label  class="label">Gender : </label>
+        <input type="radio" name="gender" class="gender" value="male" checked> <span>Male</span>
+        <input type="radio" name="gender" class="gender" value="female" > <span>Female</span> <br> <br>
+      </div>
+      <div>
+        <label class="label">Religion : </label>
+        <input type="checkbox" name="religion" class="religion" value="Muslim"> <span>Muslim</span>
+        <input type="checkbox" name="religion" class="religion" value="Hindu"> <span>Hindu</span>
+        <input type="checkbox" name="religion" class="religion" value="Other"> <span>Other</span> <br> <br>
+      </div>
+      <div>
+        <label for="course" class="label">Course : </label>
+        <select name="course" id="course">
+          <option value="CSE"> Web design & development</option>
+          <option value="EEE">Search Engine Optimization</option>
+          <option value="ECE">Graphics Design</option>
+        </select><br> <br>
+      </div>
+      <div>
+        <label class="label">Upload picture : </label>
+        <input type="file" name="file" class="file"><br> <br>
+        <label class="label">Upload Signature : </label>
+        <input type="file" name="file" class="file"><br> <br>
+      </div>
+      <div>
+        <label for="location" class="label">Location : </label><br>
+        <textarea name="location" id="location" cols="20" rows="5"></textarea>
+        <br><br>
+      </div>
+      <div>
+        <input type="submit" value="Sign-up" class="btn">
+        <input type="reset" value="Refresh" class="btn"><br><br>
+      </div>
+    </fieldset>
+  </form>
+</body>
+</html>
